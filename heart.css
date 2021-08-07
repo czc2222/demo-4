@@ -1,0 +1,35 @@
+.heart {
+  margin: 100px;
+  position: relative;
+  display: inline-block;
+  transition: all 0.8s;
+}
+.heart:hover {
+  transform: scale(1.5);
+}
+.round {
+  width: 80px;
+  height: 80px;
+  background: red;
+  position: absolute;
+  bottom: 65px;
+  right: 65px;
+  transform: rotate(45deg) translateX(30%);
+  border-radius: 50% 0 0 50%;
+}
+.roundx {
+  width: 80px;
+  height: 80px;
+  background: red;
+  position: absolute;
+  bottom: 65px;
+  left: 65px;
+  transform: rotate(45deg) translateY(30%);
+  border-radius: 50% 50% 0% 0%;
+}
+.square {
+  width: 80px;
+  height: 80px;
+  background: red;
+  transform: rotate(45deg);
+}
